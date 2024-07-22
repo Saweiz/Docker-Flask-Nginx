@@ -2,7 +2,7 @@
   "params":
   {
     "local_server": "True",
-    "local_uri": "mysql://root:abc@172.17.0.2:3306/blog_db",
+    "local_uri": "mysql://root:abc@mysql-container/blog_db",
     "prod_uri": "mysql://username:password@host:port/database_name",
     "mysql_uri_syntax": "mysql://username:password@host:port/database_name",
     "fb_url": "https://facebook.com",
