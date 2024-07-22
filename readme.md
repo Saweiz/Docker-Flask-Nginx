@@ -6,7 +6,7 @@ docker run --name mysql-container \
             -e MYSQL_ROOT_PASSWORD=abc \
             -d mysql:8.0-debian
 
-docker run -it --rm mysql-container mysql -h 172.17.0.2 -u root -p
+docker run -it --rm mysql:8.0-debian mysql -h 172.17.0.2 -u root -p
 
 # add database from db.sql
 
